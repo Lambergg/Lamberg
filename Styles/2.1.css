@@ -1,0 +1,97 @@
+/* CSS Document */
+/*Шрифт текста в теге body*/
+body {font-family: Arial;
+background-image: url("../images/sakura.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+/*Размер шрифта, шрифт, насыщеннойсть шрифта  и выравнивание текста заголовка*/
+h1{
+	font-size: 32pt;
+	/*text-align: center;*/
+	font-family: Verdana;
+	font-weight: normal;
+}
+header{text-align: center;}
+main{text-align: justify;}
+footer{text-align: right;}
+/*Размер шрифта и выравниевание текста абзаца*/
+p{
+	font-size: 14pt !important;
+	/*text-align: justify;*/
+	font-weight: bold;
+}
+
+.TF{
+	font-size: 14pt !important;
+	/*text-align: justify;*/
+	font-weight: bold;
+}
+
+/*
+Выравнивание картинки.
+Размер шрифта абзаца определённого класса. 
+Ширина картинки
+*/
+/*.picture{text-align: center;}*/
+p.greeting {font-size: 24pt;}
+.picture img {width: 67%;}
+
+/*address.place {text-align: right;}*/
+
+.advertising{margin-left: 30pt;
+	font-weight: bold;
+	font-size: 14pt !important;
+}
+.abzac{font-size: 14pt !important;
+margin-top: 5pt;
+margin-bottom: 5pt;	
+font-weight: bold;
+}
+.bigger{font-size: 16pt;}
+
+/*Стиль для таблицы*/
+table.pricelist th, table.pricelist td{
+	border: grey thin solid;
+	padding: 4px;
+}
+
+table.catalog{
+	border-collapse: collapse;
+}
+
+table.catalog td{
+	border-top: black thin dotted;
+	border-bottom: black thin dotted;
+	padding: 10px;
+}
+
+table.catalog img{
+	width: 200px;
+}
+
+table.pricelist thead th {
+	color: white;
+	background-color: grey;
+}
+
+table.pricelist tfoot th{
+	font-style: italic;
+	text-align: right;
+}
+
+/*Стиль для панели навигации*/
+nav{
+	float: left;
+	width: 150px;
+	margin: 10px 30px 10px 0px;
+	padding: 10px;
+	border: black medium double;
+	border-radius: 10px;
+}
+
+nav div {
+	font-size: 20pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

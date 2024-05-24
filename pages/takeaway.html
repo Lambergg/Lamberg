@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Заказ еды на вынос :: Киругайя: суши-бар</title>
+        <link href="../styles/2.1.css" rel="stylesheet"
+        type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Суши-бар <em>&laquo;Киругайя&raquo;</em></h1>
+        </header>
+       
+        <main>
+			
+            <h2>Заказ еды на вынос</h2>
+			
+            <form action="mailto:order@yokogama.ru"
+            method="post" enctype="text/plain">
+				
+                <p><label for="dishes">Что желаете заказать?</label><br>
+					
+                <select name="dishes" id="dishes" size="6" multiple>
+					
+                    <optgroup label="Сашими">
+						
+                        <option value="unagi">Унаги</option>
+						
+                        <option value="hamachi">Хамачи</option>
+						
+                    </optgroup>
+                    <optgroup label="Суши">
+						
+                        <option value="chukka">Чукка</option>
+						
+                        <option value="maguro">Магуро</option>
+						
+                        <option value="tobiko">Тобико</option>
+						
+                    </optgroup>
+					
+                    <optgroup label="Роллы">
+						
+                        <option value="kunsei_batakon">Кунсэй батакон</option>
+						
+                        <option value="arigato">Аригато</option>
+						
+                        <option value="mexican">Мексиканский</option>
+                    </optgroup>
+					
+					<optgroup label="Горячие блюда">
+						
+                        <option value="Jaki-Gedza">Яки-Гёдза</option>
+						
+                        <option value="Teriaki Chiken">Курица Терияки</option>
+						
+                        <option value="Tonkacu">Тонкацу</option>
+                    </optgroup>
+					
+					<optgroup label="Соусы">
+						
+                        <option value="Soy">Соевый</option>
+						
+                        <option value="Unagi">Унаги</option>
+						
+                        <option value="Kimchi">Кимчи</option>
+                    </optgroup>
+					
+                </select></p>
+				
+                <p><label for="phone">По какому телефону Вам
+                перезвонить?</label><br>
+                <input type="text" name="phone" id="phone"
+                required></p>
+				
+				<p>
+				Введите текст сообщения<br>
+				<textarea cols="40" rows="8"
+				wrap="hard">Здравствуйте!</textarea></p>
+				
+                <p><input type="submit"></p>
+            </form>
+			
+        </main>
+		
+        <footer>
+			
+            <p>&copy; Краснов И.И &laquo;Группа 2139&raquo;.<br>
+            Все права защищены.</p>
+			
+        </footer>
+		
+    </body>
+</html>
